@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("æ»≥Á«œººø‰");
+    printf("æ»≥Á«œººø‰!");
 
     return 0;
 }
