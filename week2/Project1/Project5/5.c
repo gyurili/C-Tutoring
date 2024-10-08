@@ -4,9 +4,9 @@
 
 int main() {
 
-    // int NUM = 5; <- 잘못된 문법! #define으로 정의된 상수는 수정 불가
+	// int NUM = 5;
+	
+	printf("%d\n", NUM);
 
-    printf("%d\n", NUM);
-
-    return 0;
+	return 0;
 }

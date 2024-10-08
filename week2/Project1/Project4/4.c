@@ -2,15 +2,17 @@
 
 int main() {
 
-    char name1, name2;
-    name1 = 'a';
-    name2 = '1';  // 숫자가 아님!
+	// 첫번째 방식
+	char name1, name2;
+	name1 = 'a';
+	name2 = '1';
 
-    char name3 = 'h'; //문자 1개만 저장 가능
+	// 두번째 방식
+	char name3 = 'h';
+	
+	printf("%c\n", name1);
+	printf("%c\n", name2);
+	printf("%c\n", name3);
 
-    printf("%c\n", name1);
-    printf("%c", name2);
-    printf("%c동", name3);
-
-    return 0;
+	return 0;
 }

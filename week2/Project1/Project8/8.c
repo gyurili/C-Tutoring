@@ -3,18 +3,19 @@
 
 int main() {
 
-    char name;
-    int inum;
-    float fnum;
+	char name;
+	int inum;
+	float fnum;
 
-    scanf("%c", &name);
-    scanf("%d", &inum);
-    scanf("%f", &fnum);
+	// 입력받기
+	scanf("%c\n", &name);
+	scanf("%d\n", &inum);
+	scanf("%f\n", &fnum);
 
-    printf("====출력====\n");
-    printf("%c\n", name);
-    printf("%d\n", inum);
-    printf("%f\n", fnum);
+	// 출력하기
+	printf("%c\n", name);
+	printf("%d\n", inum);
+	printf("%f\n", fnum);
 
-    return 0;
+	return 0;
 }
